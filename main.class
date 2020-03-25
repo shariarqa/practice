@@ -1,0 +1,13 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by Fernflower decompiler)
+//
+
+public class main {
+    public main() {
+    }
+
+    public static void main(String[] var0) {
+        System.out.println("im good");
+    }
+}
