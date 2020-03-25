@@ -39,7 +39,7 @@ public class BaseTest {
 //        String completeUrl = "http://" + host + ":4444/wd/hub";
 //        dc.setCapability("name", testName);
 //        this.driver = new RemoteWebDriver(new URL(completeUrl), dc);
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/driver/mac-chromedriver");
+        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--incognito");
